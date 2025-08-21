@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ricardo-dev-00.github.io/Gerenciador_de_tarefas",
+  "homepage": "https://ricardo-dev-00.github.io/Gerenciador_de_tarefas/",
   "name": "todo-list-avancada",
   "version": "1.0.0",
   "private": true,
@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite deploy"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",
@@ -16,7 +16,7 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "vite-plugin-gh-pages": "^0.4.1"
   }
 }
