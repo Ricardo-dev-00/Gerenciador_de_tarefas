@@ -1,3 +1,18 @@
+# Gerenciador de Tarefas
+
+Uma aplicação avançada de lista de tarefas (Todo List) desenvolvida em React, focada em boas práticas, performance e experiência do usuário.
+
+## 🚀 Motivação
+Este projeto foi criado para demonstrar recursos modernos do React, como Context API, hooks customizados, memoização e persistência de dados, além de técnicas de organização de código e estilização responsiva.
+
+## 📝 Funcionalidades
+- Adicionar, remover e marcar tarefas como concluídas
+- Filtrar tarefas (todas, concluídas, pendentes)
+- Persistência automática das tarefas no localStorage
+- Interface responsiva e visual moderno
+- Efeito de folha de caderno como background
+- Deploy automático no GitHub Pages
+
 -
 ## 🛠️ Tecnologias e conceitos aplicados
 - React 18
@@ -48,14 +63,6 @@ modulo-17/
 │       └── useTodos.js
 ```
 
-## 🌐 Deploy
-O deploy é feito automaticamente no GitHub Pages. Para publicar uma nova versão:
-```bash
-npm run build
-npm run deploy
-```
-Acesse: [https://ricardo-dev-00.github.io/Gerenciador_de_tarefas/](https://ricardo-dev-00.github.io/Gerenciador_de_tarefas/)
-
 ## 🖼️ Preview
 ![Preview da aplicação](src/assets/img/TELA.png)
 
@@ -65,17 +72,3 @@ Desenvolvido por [Ricardo-dev-00](https://github.com/Ricardo-dev-00)
 ---
 Feito para o curso EBAC | Módulo React Avançado
 
-# Gerenciador de Tarefas
-
-Uma aplicação avançada de lista de tarefas (Todo List) desenvolvida em React, focada em boas práticas, performance e experiência do usuário.
-
-## 🚀 Motivação
-Este projeto foi criado para demonstrar recursos modernos do React, como Context API, hooks customizados, memoização e persistência de dados, além de técnicas de organização de código e estilização responsiva.
-
-## 📝 Funcionalidades
-- Adicionar, remover e marcar tarefas como concluídas
-- Filtrar tarefas (todas, concluídas, pendentes)
-- Persistência automática das tarefas no localStorage
-- Interface responsiva e visual moderno
-- Efeito de folha de caderno como background
-- Deploy automático no GitHub Pages
