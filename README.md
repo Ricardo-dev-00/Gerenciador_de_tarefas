@@ -1,38 +1,81 @@
-# Gerenciador de Tarefas (React Avançado EBAC)
+-
+## 🛠️ Tecnologias e conceitos aplicados
+- React 18
+- Vite para build e desenvolvimento
+- Context API para estado global
+- Hooks customizados para reuso de lógica
+- useReducer para controle de estado complexo
+- useMemo e React.memo para performance
+- useEffect para persistência no localStorage
+- CSS responsivo e overlay customizado
 
-Este projeto foi desenvolvido como parte do módulo "React avançado: hooks, performance e compartilhamento de dados" do curso da EBAC.
-
-## Funcionalidades
-
-## Tecnologias e conceitos aplicados
-
-## Como rodar o projeto
-1. Clone o repositório
+## 💻 Como rodar o projeto
+1. Clone o repositório:
+	```bash
+	git clone https://github.com/Ricardo-dev-00/Gerenciador_de_tarefas.git
+	cd Gerenciador_de_tarefas
+	```
 2. Instale as dependências:
-   ```bash
-   npm install
-   ```
+	```bash
+	npm install
+	```
 3. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm run dev
-   ```
+	```bash
+	npm run dev
+	```
 4. Acesse em [http://localhost:5173](http://localhost:5173)
 
-## Estrutura de pastas
+## 📦 Estrutura de pastas
 ```
-├── src
-│   ├── assets/img/back-folha.jpg
-│   ├── components
-│   ├── context
-│   ├── hooks
-│   ├── App.jsx
-│   ├── index.css
-│   ├── index.html
-│   └── main.jsx
+modulo-17/
 ├── package.json
 ├── vite.config.mjs
-└── README.md
+├── README.md
+├── src/
+│   ├── main.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── assets/
+│   │   └── img/
+│   │       └── background.jpg
+│   ├── components/
+│   │   ├── TodoInput.jsx
+│   │   ├── TodoList.jsx
+│   │   └── TodoFilter.jsx
+│   ├── context/
+│   │   └── TodoContext.jsx
+│   └── hooks/
+│       └── useTodos.js
 ```
 
+## 🌐 Deploy
+O deploy é feito automaticamente no GitHub Pages. Para publicar uma nova versão:
+```bash
+npm run build
+npm run deploy
+```
+Acesse: [https://ricardo-dev-00.github.io/Gerenciador_de_tarefas/](https://ricardo-dev-00.github.io/Gerenciador_de_tarefas/)
 
-Desenvolvido para o curso EBAC | Módulo React Avançado
+## 🖼️ Preview
+![Preview da aplicação](src/assets/img/TELA.png)
+
+## 📬 Contato
+Desenvolvido por [Ricardo-dev-00](https://github.com/Ricardo-dev-00)
+
+---
+Feito para o curso EBAC | Módulo React Avançado
+
+# Gerenciador de Tarefas
+
+Uma aplicação avançada de lista de tarefas (Todo List) desenvolvida em React, focada em boas práticas, performance e experiência do usuário.
+
+## 🚀 Motivação
+Este projeto foi criado para demonstrar recursos modernos do React, como Context API, hooks customizados, memoização e persistência de dados, além de técnicas de organização de código e estilização responsiva.
+
+## 📝 Funcionalidades
+- Adicionar, remover e marcar tarefas como concluídas
+- Filtrar tarefas (todas, concluídas, pendentes)
+- Persistência automática das tarefas no localStorage
+- Interface responsiva e visual moderno
+- Efeito de folha de caderno como background
+- Deploy automático no GitHub Pages
