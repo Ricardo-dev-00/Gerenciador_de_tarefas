@@ -12,6 +12,7 @@ function TodoInput() {
     }
   }, [text, addTodo]);
 
+  const [isFocused, setIsFocused] = useState(false);
   return (
     <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
       <input
@@ -20,7 +21,16 @@ function TodoInput() {
         onChange={e => setText(e.target.value)}
         placeholder="Nova tarefa..."
         onKeyDown={e => e.key === 'Enter' && handleAdd()}
-        style={{ flex: 1, padding: 8 }}
+        onFocus={() => setIsFocused(true)}
+        onBlur={() => setIsFocused(false)}
+        style={{
+          flex: 1,
+          padding: 8,
+          border: 'none',
+          outline: 'none',
+          boxShadow: isFocused ? '0 0 0 2px #1976d2' : 'none',
+          borderRadius: 4
+        }}
       />
       <button
         onClick={handleAdd}

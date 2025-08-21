@@ -3,20 +3,8 @@
 Este projeto foi desenvolvido como parte do módulo "React avançado: hooks, performance e compartilhamento de dados" do curso da EBAC.
 
 ## Funcionalidades
-- Adicionar, remover e marcar tarefas como concluídas
-- Filtrar tarefas (todas, concluídas, pendentes)
-- Persistência automática das tarefas no localStorage
-- Interface responsiva e visual moderno
-- Efeito de folha de caderno como background
 
 ## Tecnologias e conceitos aplicados
-- **React 18**
-- **Context API** para estado global
-- **Hooks customizados** para reuso de lógica
-- **useReducer** para controle de estado complexo
-- **useMemo** e **React.memo** para performance
-- **useEffect** para persistência no localStorage
-- **CSS responsivo** e overlay customizado
 
 ## Como rodar o projeto
 1. Clone o repositório
@@ -46,9 +34,5 @@ Este projeto foi desenvolvido como parte do módulo "React avançado: hooks, per
 └── README.md
 ```
 
-## Prints
-Adicione prints da aplicação funcionando para valorizar seu trabalho!
-
----
 
 Desenvolvido para o curso EBAC | Módulo React Avançado
